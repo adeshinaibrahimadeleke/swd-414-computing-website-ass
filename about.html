@@ -3,18 +3,111 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>About Us</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | Computing Department</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-    <nav>
-        <a href="index.html">Home</a> |
-        <a href="about.html">About</a> |
-        <a href="programmes.html">Programmes</a> |
+
+<header class="site-header">
+    <a class="brand" href="index.html">
+        <span class="brand-mark">C</span>
+        <span>Computing Department</span>
+    </a>
+    <button class="menu-toggle" aria-label="Toggle navigation"
+        aria-expanded="false">☰</button>
+    <nav class="nav-links" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a class="active" href="about.html">About</a>
+        <a href="programmes.html">Programmes</a>
         <a href="contact.html">Contact</a>
     </nav>
+</header>
 
-    <h1>About Our Department</h1>
-    <p>Our Computing Department helps students develop
-    practical skills in computer science and technology.</p>
+<main>
+    <section class="page-hero">
+        <p class="eyebrow">WHO WE ARE</p>
+        <h1>Curiosity today.<br><span>Innovation tomorrow.</span></h1>
+        <p>
+            Computing is more than using technology.
+            It is about understanding problems and creating useful solutions.
+        </p>
+    </section>
+
+    <section class="content-section two-column">
+        <div>
+            <p class="eyebrow">ABOUT THE DEPARTMENT</p>
+            <h2>Learning that connects ideas to action.</h2>
+            <p>
+                The Computing Department introduces students to important
+                computing concepts and encourages them to apply what they
+                learn through practical tasks and projects.
+            </p>
+            <p>
+                From writing their first lines of code to designing web pages
+                and understanding computer systems, students can develop
+                skills that support further study and future careers.
+            </p>
+        </div>
+
+        <div class="highlight-panel">
+            <div class="big-symbol">&lt;/&gt;</div>
+            <h3>Think. Code. Improve.</h3>
+            <p>
+                Good technology starts with a question, grows through
+                practice, and gets better with feedback.
+            </p>
+        </div>
+    </section>
+
+    <section class="section section-soft">
+        <div class="section-heading">
+            <p class="eyebrow">WHAT GUIDES US</p>
+            <h2>Our Learning Values</h2>
+        </div>
+
+        <div class="card-grid">
+            <article class="feature-card">
+                <div class="card-icon purple">◎</div>
+                <h3>Curiosity</h3>
+                <p>Ask questions, explore ideas and keep learning how technology works.</p>
+            </article>
+
+            <article class="feature-card">
+                <div class="card-icon blue">⚙</div>
+                <h3>Practical Skills</h3>
+                <p>Turn theory into practice through coding, testing and problem-solving.</p>
+            </article>
+
+            <article class="feature-card">
+                <div class="card-icon orange">✧</div>
+                <h3>Innovation</h3>
+                <p>Think creatively and build solutions that respond to real needs.</p>
+            </article>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div>
+            <p class="eyebrow">KEEP EXPLORING</p>
+            <h2>Find an area that excites you.</h2>
+            <p>Discover the computing topics on our programmes page.</p>
+        </div>
+        <a class="button button-light" href="programmes.html">
+            Explore Programmes →
+        </a>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <a class="brand footer-brand" href="index.html">
+        <span class="brand-mark">C</span>
+        <span>Computing Department</span>
+    </a>
+    <p>Learning today. Creating tomorrow.</p>
+    <p class="copyright">© <span class="year"></span> Computing Department · Student Project</p>
+</footer>
+
 </body>
 </html>

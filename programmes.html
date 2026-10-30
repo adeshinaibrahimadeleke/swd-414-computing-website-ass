@@ -1,23 +1,146 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Our Programmes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programmes | Computing Department</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-    <nav>
-        <a href="index.html">Home</a> |
-        <a href="about.html">About</a> |
-        <a href="programmes.html">Programmes</a> |
+
+<header class="site-header">
+    <a class="brand" href="index.html">
+        <span class="brand-mark">C</span>
+        <span>Computing Department</span>
+    </a>
+    <button class="menu-toggle" aria-label="Toggle navigation"
+        aria-expanded="false">☰</button>
+    <nav class="nav-links" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a class="active" href="programmes.html">Programmes</a>
         <a href="contact.html">Contact</a>
     </nav>
+</header>
 
-    <h1>Our Programmes</h1>
-    <ul>
-        <li>Web Development</li>
-        <li>Software Development</li>
-        <li>Computer Networking</li>
-        <li>Database Management</li>
-    </ul>
+<main>
+    <section class="page-hero">
+        <p class="eyebrow">EXPLORE YOUR OPTIONS</p>
+        <h1>Skills for a <span>connected world.</span></h1>
+        <p>
+            Explore key areas of computing and discover the skills
+            behind the digital tools we use every day.
+        </p>
+    </section>
+
+    <section class="section">
+        <div class="section-heading">
+            <p class="eyebrow">AREAS OF COMPUTING</p>
+            <h2>What Can You Explore?</h2>
+            <p>These are introductory learning areas for this student website.</p>
+        </div>
+
+        <div class="programme-grid">
+
+            <article class="programme-card">
+                <div class="programme-top purple-bg">
+                    <span>01</span><b>&lt;/&gt;</b>
+                </div>
+                <div class="programme-body">
+                    <span class="tag">BUILD FOR THE WEB</span>
+                    <h3>Web Development</h3>
+                    <p>
+                        Learn how websites are structured and styled with HTML
+                        and CSS, then add interactions with JavaScript.
+                    </p>
+                    <ul>
+                        <li>Page structure and layout</li>
+                        <li>Responsive design basics</li>
+                        <li>Interactive user experiences</li>
+                    </ul>
+                </div>
+            </article>
+
+            <article class="programme-card">
+                <div class="programme-top blue-bg">
+                    <span>02</span><b>⌘</b>
+                </div>
+                <div class="programme-body">
+                    <span class="tag">SOLVE PROBLEMS</span>
+                    <h3>Software Development</h3>
+                    <p>
+                        Explore how programmers plan, write, test and improve
+                        software to solve user problems.
+                    </p>
+                    <ul>
+                        <li>Programming fundamentals</li>
+                        <li>Algorithms and logic</li>
+                        <li>Testing and debugging</li>
+                    </ul>
+                </div>
+            </article>
+
+            <article class="programme-card">
+                <div class="programme-top orange-bg">
+                    <span>03</span><b>⌁</b>
+                </div>
+                <div class="programme-body">
+                    <span class="tag">CONNECT SYSTEMS</span>
+                    <h3>Computer Networking</h3>
+                    <p>
+                        Understand how devices communicate and how networks
+                        support the services people depend on.
+                    </p>
+                    <ul>
+                        <li>Network components</li>
+                        <li>Communication basics</li>
+                        <li>Network safety awareness</li>
+                    </ul>
+                </div>
+            </article>
+
+            <article class="programme-card">
+                <div class="programme-top green-bg">
+                    <span>04</span><b>▦</b>
+                </div>
+                <div class="programme-body">
+                    <span class="tag">ORGANISE INFORMATION</span>
+                    <h3>Database Management</h3>
+                    <p>
+                        Discover how data is organised, stored, retrieved
+                        and maintained for useful applications.
+                    </p>
+                    <ul>
+                        <li>Tables and relationships</li>
+                        <li>Queries and records</li>
+                        <li>Data accuracy</li>
+                    </ul>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div>
+            <p class="eyebrow">HAVE A QUESTION?</p>
+            <h2>Not sure where to begin?</h2>
+            <p>Contact us with questions about this student project website.</p>
+        </div>
+        <a class="button button-light" href="contact.html">Contact Us →</a>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <a class="brand footer-brand" href="index.html">
+        <span class="brand-mark">C</span>
+        <span>Computing Department</span>
+    </a>
+    <p>Learning today. Creating tomorrow.</p>
+    <p class="copyright">© <span class="year"></span> Computing Department · Student Project</p>
+</footer>
+
 </body>
 </html>
